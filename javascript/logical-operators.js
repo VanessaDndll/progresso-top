@@ -81,7 +81,7 @@ console.log( null || 2 || undefined); // 2
 
 console.log( 1 && null && 3); // null
 
-console.log( null || 2 && 3 || 4);
+console.log( null || 2 && 3 || 4); // 3
 
 let age = 50;
 
@@ -93,9 +93,9 @@ if (!(age >= 14 && age <= 90 )) {
     console.log("Certo!");
 }
 
-console.log('0, -1, 1');
+console.log('-1, 0, 1');
 
-
+// ------------------------------------------------------------------
 
 
 
